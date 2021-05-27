@@ -1,0 +1,25 @@
+:root {
+  --main-bg-color: #08151B;
+  --hover-color:#254C5F;
+    --white-color:#fafafa;
+}
+
+i , a ,.nav-item a:hover {
+  color: var(--main-bg-color);
+}
+.button{
+  background-color: var(--main-bg-color);
+  color: var(--white-color);
+}
+.button:hover{
+ background-color: var(--hover-color);
+ color: var(--white-color);
+}
+a:hover{
+  color: var(--hover-color);
+}
+.foot i:hover,
+.scrollToTop i:hover{
+  color: var(--hover-color);
+}
+

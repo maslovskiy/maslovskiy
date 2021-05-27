@@ -1,0 +1,159 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 960px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 1024px) {
+	svg {
+		height: 100px;
+		width: 100px;
+
+	}
+	.toggle_mnu{
+		top: 45px;
+		width: 50px;
+		height: 50px;
+	}
+
+	.tile.is-parent.bottom_title.is-vertical{
+		margin-top: -70px;
+		margin-left: -270px;
+	}
+	.tile.is-parent.top_title{
+		display: flex;
+		flex-direction: row;
+
+	}
+	.tile.is-child.is-6{
+		flex-direction: row;
+		text-align:center;
+		color: black;
+		text-transform: lowercase;
+	}
+	.tile.is-child h2{
+		font-size: 48px;
+		padding: 10px 20px 5px 20px;
+		border: 2px solid white;
+		border-radius: 10px;
+		letter-spacing: 2px;
+	}
+	.tile.is-child h6{
+		padding-top: 10px;
+		letter-spacing: 1px;
+		font-size:18px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	svg {
+		height: 100px;
+		width: 100px;
+
+	}
+	.toggle_mnu{
+		top: 35px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.sandwich, .sw-topper  , .sw-bottom, .sw-footer {
+		width: 25px;	
+	}
+	.sandwich{
+		height: 30px;
+	}
+	.sw-topper {
+		top: 0;
+	}
+	.sw-bottom {
+		top: 6px;
+	}
+	.sw-footer {
+		top: 13px;
+	}
+
+	.scrollToTop{
+		width: 70px;
+		bottom: 20px;
+		display: none;
+		z-index: 9999;
+	}
+	.scrollToTop img {
+		width: 40px;
+		height: 40px; 
+	}
+
+	.tile.is-child.is-6 a{
+		margin-left:20px;
+		margin-top:10px;
+	}
+	.tile.is-parent.bottom_title.is-vertical{
+		margin-top: -40px;
+		margin-left: -149px;
+	}
+	.tile.is-parent.top_title{
+		display: flex;
+		flex-direction: row;
+
+	}
+	.tile.is-child.is-6{
+		flex-direction: row;
+		text-align:center;
+		color: black;
+		text-transform: lowercase;
+	}
+	.tile.is-child h2{
+		font-size: 22px;
+		padding: 10px 10px 5px 10px;
+		border: 1px solid white;
+		border-radius: 10px;
+		letter-spacing: 2px;
+	}
+	.tile.is-child h6{
+		padding-top: 10px;
+		letter-spacing: 1px;
+		font-size:12px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

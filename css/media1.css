@@ -1,0 +1,213 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1024px) {
+	.column.is-2{
+		justify-content: flex-start;
+		padding-left:40px;
+		padding-top: 15px;
+	}
+	.tile.is-6.is-vertical{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.tile.is-6.is-vertical h2{
+		padding: 10px 35px 10px 35px;
+		border: 2px solid white;
+		border-radius: 10px;
+		letter-spacing: 3px;
+		font-size: 36px;
+	}
+	.tile.is-6.is-vertical h6{
+		font-size:18px;
+		margin-top: 15px;
+		letter-spacing: 3px;
+	}
+	.column.portfolio{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.column.is-2{
+		justify-content: flex-start;
+		padding-left:40px;
+		padding-top: 15px;
+	}
+	.tile.is-ancestor{
+		margin-top:-50px;
+		top: 50%;
+	}
+	.tile.is-6.is-vertical{
+		width: 98%;
+		margin-left: 1%;
+	}
+	.tile.is-6.is-vertical h2{
+		padding: 10px 35px 10px 35px;
+		border: 2px solid white;
+		border-radius: 10px;
+		letter-spacing: 3px;
+		font-size: 36px;
+	}
+	.tile.is-6.is-vertical h6{
+		font-size:18px;
+		margin-top: 15px;
+		letter-spacing: 3px;
+	}
+	.vertical_line{
+		display: none;
+	}
+	.column.portfolio{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 100%;
+	}
+	footer.columns {
+	    display: flex;
+	    flex-direction: row;
+	    margin-bottom: 0;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	svg {
+		height: 100px;
+		width: 100px;
+	}
+	.column.is-2{
+		justify-content: flex-start;
+		padding-left:30px;
+		padding-top: 15px;
+	}
+	.tile.is-ancestor{
+		margin-top:-50px;
+		top: 50%;
+	}
+	.tile.is-6.is-vertical h2{
+		padding: 10px 0px 5px 0px;
+		max-width: 480px;
+		letter-spacing: 3px;
+		font-size: 20px;
+		margin-left: 12.5px;
+		margin-right: 12.5px;
+	}
+	.tile.is-6.is-vertical h6{
+		font-size:12px;
+		margin-top: 15px;
+		letter-spacing: 3px;
+	}
+	
+	.toggle_mnu{
+		right: 30px;
+		top: 35px;
+		width: 35px;
+		height: 35px;
+	}
+
+	.sandwich, .sw-topper  , .sw-bottom, .sw-footer {
+		width: 25px;	
+	}
+	.sandwich{
+		height: 30px;
+	}
+	.sw-topper {
+		top: 0;
+	}
+	.sw-bottom {
+		top: 6px;
+	}
+	.sw-footer {
+		top: 13px;
+	}
+
+	.scrollToTop{
+		width: 70px;
+		right: 0;
+		display: none;
+		z-index: 9999;
+	}
+	.about_me_section 
+	p{
+		margin:20px 0px 15px 0px;
+	}
+	.column.cv_section{
+		padding-right: 0;
+	}
+	.additional_info_item a{
+		right: 15px;
+	}
+	.horizontal_line_hidden,
+	.horizontal_line{
+		visibility: visible;
+		margin-top: 40px;
+		width: 50%
+	}
+	.fa-arrow-circle-up.fa-4x{
+		font-size: 40px;
+		left: 15px;
+	}
+	hr{
+		width: 50%;
+	}
+	.footer_line{
+		margin-left: 25px;
+	}
+	footer.columns {
+	    display: flex;
+	    flex-direction: column-reverse;
+	    margin-bottom: 0;
+	}
+
+	.column.foot {
+	    padding: 5px 0 20px 0;
+	}
+	.toggle_mnu {
+		right: 20px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
